@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useAudio } from '../hooks/useAudioPlayer'
+import { useAudio } from '../../hooks/useAudioPlayer'
 
 function LiveGradient() {
   const { albumColors, isPlaying } = useAudio()
