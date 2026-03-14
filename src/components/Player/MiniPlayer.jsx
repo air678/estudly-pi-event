@@ -1,4 +1,4 @@
-import { useAudio } from '../hooks/useAudioPlayer'
+import { useAudio } from '../../hooks/useAudioPlayer'
 import Controls from './Controls'
 import { useRef } from 'react'
 

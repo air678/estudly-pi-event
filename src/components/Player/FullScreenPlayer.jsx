@@ -1,5 +1,5 @@
-import { useAudio } from '../hooks/useAudioPlayer'
-import LiveGradient from './LiveGradient'
+import { useAudio } from '../../hooks/useAudioPlayer'
+import LiveGradient from '../Gradient/LiveGradient'
 import Controls from './Controls'
 
 function FullScreenPlayer({ onMinimize, onToggleLibrary }) {

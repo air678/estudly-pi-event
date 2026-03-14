@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
-import { useAudio } from '../hooks/useAudioPlayer'
-import { useColorExtract } from '../hooks/useColorExtract'
+import { useAudio } from '../../hooks/useAudioPlayer'
+import { useColorExtract } from '../../hooks/useColorExtract'
 
 function Library({ isVisible, onClose }) {
   const { tracks, currentTrackIndex, addTracks, selectTrack, removeTrack, setAlbumColors } = useAudio()
