@@ -1,4 +1,4 @@
-import { useAudio } from '../hooks/useAudioPlayer'
+import useAudioPlayer from '../../hooks/useAudioPlayer';
 import LiveGradient from './LiveGradient'
 import Controls from './Controls'
 
